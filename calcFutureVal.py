@@ -17,11 +17,11 @@ t =	number of time periods elapsed
 
 def calcFV() :
     p = 10000
-    r = 3.5
+    r = 3.5/100
     t = 7
-    n = 1
+    n = 12
 
-    FV = p * ( (1 + (r/n) ) ** (n * t))
+    FV = p * ( (1 + r/n ) ** (n * t))
 
     return FV
 
